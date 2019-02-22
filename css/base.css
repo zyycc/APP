@@ -1,0 +1,49 @@
+body{
+    font-size:12px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 100px;
+}
+@media (min-width: 320px) {
+    html{
+        font-size: calc(42.66667px);
+    }
+}
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media (min-width: 375px) {
+    html {
+        font-size: 50px;
+    }
+}
+@media (min-width: 414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 1021915 */
+    src: url('//at.alicdn.com/t/font_1021915_h9m6qa3enls.eot');
+    src: url('//at.alicdn.com/t/font_1021915_h9m6qa3enls.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1021915_h9m6qa3enls.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1021915_h9m6qa3enls.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1021915_h9m6qa3enls.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1021915_h9m6qa3enls.svg#iconfont') format('svg');
+}

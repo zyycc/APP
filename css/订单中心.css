@@ -1,0 +1,214 @@
+/*header*/
+.header{
+    width:100% ;
+    height:0.4rem;
+}
+.header img{
+    width:100% ;
+    height:0.4rem;
+}
+.banner {
+    width:100%;
+    height:1.33rem ;
+   /* background: #d6ffdf ;*/
+}
+.banner p{
+    text-align: center ;
+    padding-top: 0.4rem;
+    font-size: 0.38rem;
+    color:rgb(5,5,5);
+}
+/*content1   content2*/
+/*content1*/
+.content1 {
+    width:100%;
+    height:3.7rem ;
+   /* background: #9db1f9;*/
+}
+.content1Top {
+    width:2.27rem ;
+    height: 0.69rem;
+    background-image: linear-gradient(rgba(255,170,47,0.8)10%,rgba(255,152,44,0.9)60% ,rgba(255,134,40,0.9)100% );
+    border-radius:0 0.5rem 0.5rem 0;
+    line-height: 0.69rem;
+}
+.content1Top p{
+    font-size: 0.34rem;
+    text-align: center;
+    color:rgb(253,253,253) ;
+
+}
+.content1Bottom {
+    width:100%;
+    height:1.65rem;
+   /* background: #c3e408 ;*/
+    margin-top: 0.55rem;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: nowrap;
+}
+.content1Bottom-1,.content1Bottom-2 {
+    width:3.41rem ;
+    height:1.65rem ;
+    background: rgb(255,255,255);
+    border:1px solid rgba(136,133,133,0.15);
+    box-shadow: rgba(0,0,0,0.05) 0 0 8px ;
+    border-radius:0.1rem  ;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content1Bottom-1Left,.content1Bottom-2Left  {
+    width:1.46rem ;
+    height:1.65rem ;
+  /*  background: #e000e4;*/
+}
+.content1Bottom-1Left img,.content1Bottom-2Left img{
+    width:1.16rem ;
+    height:1.16rem;
+
+}
+.content1Bottom-1Right,.content1Bottom-2Right {
+    width:1.95rem ;
+    height:1.65rem ;
+  /*  background: #8477e4;*/
+}
+.content1Bottom-1Right pre,.content1Bottom-2Right pre{
+    padding-top:0.8rem ;
+    font-size:0.3rem ;
+}
+.content1Bottom-1Right span,.content1Bottom-2Right span  {
+    font-size:0.3rem ;
+    color:rgb(2,2,2) ;
+}
+
+
+/*content2*/
+.content2{
+    width: 100%;
+    height: 6.91rem;
+   /* background: #cc6f4d ;*/
+}
+.content2Top {
+    width:2.27rem ;
+    height: 0.69rem;
+    background-image: linear-gradient(rgba(255,170,47,0.8)10%,rgba(255,152,44,0.9)60% ,rgba(255,134,40,0.9)100% );
+    border-radius:0 0.5rem 0.5rem 0;
+    line-height: 0.69rem;
+}
+.content2Top p{
+    font-size: 0.34rem;
+    text-align: center;
+    color:rgb(253,253,253) ;
+}
+.content2Bottom {
+    width:100% ;
+    height: 4.8rem;
+  /*  background: #d6ffdf ;*/
+    margin-top:0.71rem ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content2Bottom-1 {
+    width: 7.02rem;
+    height: 1.43rem;
+    border:1px solid rgba(136,133,133,0.15);
+    box-shadow: rgba(0,0,0,0.05) 0 0  20px ;
+    background:rgb(255,255,255);
+    border-radius: 0.1rem ;
+    margin:0 auto ;
+    margin-top:0.1rem;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.content2Bottom-1Left{
+    width:5.52rem ;
+    height:1.43rem ;
+  /*  background: #e000e4;*/
+    float: left;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.content2Bottom-1Left-1{
+    width:1.5rem ;
+    height:1.5rem ;
+
+}
+.content2Bottom-1Left-1 img{
+    width:1.3rem ;
+    height:1.2rem ;
+  padding-left:0.3rem ;
+    padding-top:0.15rem ;
+}
+.content2Bottom-1Left-2{
+    width:3.72rem ;
+    height:1.43rem ;
+   /* background: #9db1f9;*/
+    margin-left:0.3rem ;
+}
+.content2Bottom-1Left-2 p{
+  font-size:0.26rem ;
+    padding-top:0.15rem ;
+}
+.content2Bottom-1Left-2 pre{
+    font-size:0.22rem ;
+
+}
+
+.content2Bottom-1Right {
+    width:1.5rem ;
+    height:1.43rem ;
+   /* background: #2816da;*/
+}
+.content2Bottom-1RightC{
+    width:1.22rem ;
+    height:0.46rem ;
+    line-height:0.46rem ;
+    background:rgb(255,169,47);
+    border-radius:0.23rem  ;
+    margin:0.5rem auto ;
+}
+.content2Bottom-1RightC p{
+    text-align: center ;
+    font-size:0.22rem ;
+    color:rgb(255,254,254);
+}
+/*footer*/
+.footer {
+    width: 100%;
+    height:1rem ;
+    background:rgba(188,188,188,0.05);
+    overflow: hidden;
+
+
+}
+.footerContent{
+    width: 7.22rem;
+    height:0.8rem;
+    /*background: #63f929;*/
+    margin: auto ;
+    margin-top:0.05rem ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.footerContent1{
+    width:0.5rem ;
+    height:0.8rem ;
+}
+.footerContent1 img{
+    width: 0.45rem;
+    height: 0.45rem;
+    text-align: center;
+    margin: auto ;
+}
+.footerContent1 p{
+    color:rgb(5,5,5);
+    font-size: 0.24rem;
+    margin: auto ;
+}
+
+
+
+
+
